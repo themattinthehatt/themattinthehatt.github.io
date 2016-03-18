@@ -1,2 +1,2 @@
 # themattinthehatt.github.io
-Personal webpage
+Please visit my [personal webpage](http://themattinthehatt.github.io) for more info!
