@@ -92,9 +92,9 @@ display set to inline-block */
 	display: inline-block;
 }
 .left-blurb {
-	position: relative;
+	/*position: relative;
 	display: inline;
-	float: left;
+	float: left;*/
 	text-align: left;
 	font-family: Helvetica, sans-serif;
 	width: 70%;
