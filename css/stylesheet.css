@@ -24,6 +24,8 @@ nav ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
+	position: relative;
+	display: inline-block;
    	margin-left: 20px;
    	margin-right: 20px;
 }
@@ -92,6 +94,7 @@ display set to inline-block */
 	width: 50%;
 	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .right-blurb {
 	position: relative;
@@ -102,6 +105,7 @@ display set to inline-block */
 	width: 50%;
 	padding-right: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .left-image {
 	position: relative;
@@ -111,6 +115,7 @@ display set to inline-block */
 	width: 50%;
 	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .right-image {
 	position: relative;
@@ -120,6 +125,7 @@ display set to inline-block */
 	width: 40%;
 	padding-right: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
