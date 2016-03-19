@@ -16,6 +16,8 @@ nav {
 	color: #fafafa;
 	margin-top: -20px;
 	margin-bottom: 10px;
+	border: 2px dashed blue;
+	width: 100%;
 }
 nav ul {
     font-family: 'Courier', sans-serif;
