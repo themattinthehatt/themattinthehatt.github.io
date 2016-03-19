@@ -30,7 +30,7 @@ nav ul li, footer ul li {
    	margin-right: 20px;
 }
 footer {
-	float: clear;
+	clear: both;
     font-size: .8em;
     color: #fafafa;
 }
@@ -97,6 +97,7 @@ display set to inline-block */
 	float: left;
 	text-align: left;
 	font-family: Helvetica, sans-serif;
+	width: 70%;
 }
 .right-blurb {
 	position: relative;
@@ -104,16 +105,19 @@ display set to inline-block */
 	float: right;
 	text-align: right;
 	font-family: Helvetica, sans-serif;
+	width: 70%;
 }
 .left-image {
 	position: relative;
 	display: inline;
 	float: left;
+	width: 30%;
 }
 .right-image {
 	position: relative;
 	display: inline;
 	float: right;
+	width: 30%;
 }
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
