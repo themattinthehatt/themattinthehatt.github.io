@@ -2,7 +2,7 @@
                         CSS TAG SELECTORS
 -----------------------------------------------------------------*/
 body {
-    margin-top: 0px;
+    margin: 60px auto;
     width: 90%;
     color: #fafafa;
     text-align: center;	/* center body */
@@ -14,7 +14,7 @@ nav {
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
-	margin-top: 0;
+	margin-top: -20px;
 }
 nav ul {
     font-family: 'Courier', sans-serif;
