@@ -93,8 +93,8 @@ display set to inline-block */
 }
 .left-blurb {
 	/*position: relative;
-	display: inline;
-	float: left;*/
+	display: inline;*/
+	float: left;
 	text-align: left;
 	font-family: Helvetica, sans-serif;
 	width: 70%;
