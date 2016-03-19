@@ -62,6 +62,7 @@ p {
 	background-color: #2d2d2d;
 	border: 5px solid #000000;
 	color: #fafafa;
+	border-radius: 10px;
 }
 
 
@@ -113,20 +114,6 @@ ul {
 }
 
 
-
-
-<body>
-		<div id="header">
-			<div id="navbar">
-				<ul>
-					<li>Home</li>
-					<li>About Me</li>
-					<li>Plans for World Domination</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-			<h2>About Me</h2>
-		</div>
 
 
 #navbar {
