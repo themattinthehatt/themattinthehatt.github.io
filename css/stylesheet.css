@@ -7,18 +7,22 @@ body {
     color: #fafafa;
 }
 /* header and footer */
-nav ul {
+nav {
 	text-align: center;
+}
+nav ul {
     font-family: 'Courier', sans-serif;
     font-size: 1.2em;
-    padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #fafafa;
+    background-color: #2d2d2d;
+	border: 5px solid #000000;
+	border-radius: 20px;
+	color: #fafafa;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    text-align: center;
     color: #fafafa;
 }
 footer {
