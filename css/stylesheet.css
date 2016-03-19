@@ -6,6 +6,7 @@ body {
     width: 90%;
     color: #fafafa;
     text-align: center;	/* center body */
+    border: 2px dashed black;
 }
 /* header and footer */
 nav {
