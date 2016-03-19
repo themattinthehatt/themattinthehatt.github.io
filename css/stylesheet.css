@@ -7,9 +7,6 @@ body {
     color: #fafafa;
 }
 /* header and footer */
-nav {
-	text-align: center;
-}
 nav ul {
     font-family: 'Courier', sans-serif;
     font-size: 1.2em;
