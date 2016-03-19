@@ -40,7 +40,7 @@ footer ul li:nth-child(2) {
 /* hyperlinks */
 a {
     text-decoration: none;
-    color: #fafafa;
+    color: #e3db00;
 }
 a:hover {
     text-decoration: none;
@@ -91,10 +91,12 @@ display set to inline-block */
 }
 .left-blurb {
 	float: left;
+	text-align: left;
 	font-family: Helvetica, sans-serif;
 }
 .right-blurb {
 	float: right;
+	text-align: right;
 	font-family: Helvetica, sans-serif;
 }
 .left-image {
