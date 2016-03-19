@@ -15,6 +15,7 @@ nav {
 	border-radius: 20px;
 	color: #fafafa;
 	margin-top: -20px;
+	text-align: center;	/* navigation bar */
 }
 nav ul {
     font-family: 'Courier', sans-serif;
