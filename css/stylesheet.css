@@ -98,7 +98,9 @@ display set to inline-block */
 	float: left;
 	text-align: left;
 	font-family: Helvetica, sans-serif;
-	width: 70%;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 .right-blurb {
 	position: relative;
@@ -106,7 +108,9 @@ display set to inline-block */
 	float: right;
 	text-align: right;
 	font-family: Helvetica, sans-serif;
-	width: 70%;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 .left-image {
 	position: relative;
