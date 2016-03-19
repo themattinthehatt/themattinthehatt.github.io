@@ -30,6 +30,7 @@ nav ul li, footer ul li {
    	margin-right: 20px;
 }
 footer {
+	float: clear;
     font-size: .8em;
     color: #fafafa;
 }
@@ -91,19 +92,27 @@ display set to inline-block */
 	display: inline-block;
 }
 .left-blurb {
+	position: relative;
+	display: inline;
 	float: left;
 	text-align: left;
 	font-family: Helvetica, sans-serif;
 }
 .right-blurb {
+	position: relative;
+	display: inline;
 	float: right;
 	text-align: right;
 	font-family: Helvetica, sans-serif;
 }
 .left-image {
+	position: relative;
+	display: inline;
 	float: left;
 }
 .right-image {
+	position: relative;
+	display: inline;
 	float: right;
 }
 /* ----------------------------------------------------------------
