@@ -1,18 +1,11 @@
 /* ----------------------------------------------------------------
                         CSS TAG SELECTORS
 -----------------------------------------------------------------*/
-html {
-	position: relative;
-	text-align: center;
-}
+
 body {
-	position: relative;
-	display: inline-block;
-	margin: auto;
     margin-top: 60px;
     width: 90%;
     color: #fafafa;
-    text-align: center;	/* center body */
     border: 2px dashed black;
 }
 /* header and footer */
@@ -84,6 +77,17 @@ p {
 	color: #fafafa;
 }
 
+/* for centering: position of container should be relative, and text-align
+set to center; then the child should also have relative position and
+display set to inline-block */
+.centered-wrapper {
+	position: relative;
+	text-align: center;
+}
+.centered-content {
+	position: relative;
+	display: inline-block;
+}
 
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
