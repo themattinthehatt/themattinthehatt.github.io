@@ -9,11 +9,13 @@ body {
 }
 /* header and footer */
 nav {
+	display: inline-block;
 	background-color: #2d2d2d;
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
 	margin-top: -20px;
+	margin-bottom: 10px;
 	text-align: center;	/* navigation bar */
 }
 nav ul {
