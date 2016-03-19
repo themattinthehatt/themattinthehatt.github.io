@@ -16,6 +16,7 @@ nav ul {
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
+	text-align: center;
 }
 nav ul li, footer ul li {
    	display: inline;
