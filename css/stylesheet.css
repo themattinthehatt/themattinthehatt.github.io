@@ -27,6 +27,8 @@ nav ul {
 nav ul li, footer ul li {
    	display: inline;	/* make each item inline with others */
    	text-align: center;	/* center each item within its box */
+   	margin-left: 10px;
+   	margin-right: 10px;
 }
 footer {
     font-size: .8em;
