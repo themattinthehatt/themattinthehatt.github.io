@@ -73,6 +73,7 @@ p {
 }
 /* main container of content for each page */
 .container {
+	overflow: hidden;
 	margin-top: 10px;
 	background-color: #2d2d2d;
 	border: 5px solid #000000;
