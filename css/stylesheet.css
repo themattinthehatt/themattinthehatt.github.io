@@ -23,7 +23,7 @@ nav ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
 	position: relative;
 	display: inline-block;
    	margin-left: 20px;
@@ -31,9 +31,18 @@ nav ul li, footer ul li {
 }
 footer {
 	clear: both;
-    font-size: .8em;
     color: #fafafa;
 }
+footer ul {
+    font-family: Courier, sans-serif;
+    font-size: 0.8em;
+    list-style: none;
+}
+footer ul li {
+	position: relative;
+	display: inline-block;
+   	margin-left: 5px;
+   	margin-right: 5px;
 
 /* hyperlinks */
 a {
