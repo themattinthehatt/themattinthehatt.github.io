@@ -40,25 +40,26 @@ p {
 }
 
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-
-
 /* ----------------------------------------------------------------
                         CLASS SELECTORS
 -----------------------------------------------------------------*/
-.class1 {
-    color: red;
-
+.red-page {
+    background-color: #912d2d;
 }
-
+.green-page {
+    background-color: #2d912d;
+}
+.blue-page {
+    background-color: #2d2d91;
+}
+/* main container of content for each page */
+.container {
+	height: 90%;
+	width: 90%;
+	background-color: #2d2d2d;
+	border: 5px solid #000000;
+	color: #fafafa;
+}
 /* ----------------------------------------------------------------
                           IDS SELECTORS
 -----------------------------------------------------------------*/
@@ -70,15 +71,6 @@ ul.posts li {
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
 -----------------------------------------------------------------*/
-selector:pseudo-class_selector {
-    property: value;
-}
-
-a:hover {
-    color: #cc0000;
-    text-decoration: none;
-}
-
 /* pseudo-class selectors
 for links:
 1. a:link - an unvisited link
