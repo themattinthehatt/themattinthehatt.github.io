@@ -2,6 +2,7 @@
                         CSS TAG SELECTORS
 -----------------------------------------------------------------*/
 body {
+	position: absolute;
     margin-top: 60px;
     width: 90%;
     color: #fafafa;
