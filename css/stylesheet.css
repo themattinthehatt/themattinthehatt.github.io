@@ -10,21 +10,18 @@ body {
 }
 /* header and footer */
 nav {
-	display: inline-block;
 	background-color: #2d2d2d;
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
 	margin-top: -20px;
 	margin-bottom: 10px;
-	text-align: center;	/* navigation bar */
 }
 nav ul {
     font-family: 'Courier', sans-serif;
     font-size: 1.2em;
     list-style: none;
     font-weight: bold;
-    text-align: center; /* center whole list */
 }
 nav ul li, footer ul li {
    	display: inline;	/* make each item inline with others */
