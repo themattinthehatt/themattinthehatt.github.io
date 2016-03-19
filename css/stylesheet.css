@@ -40,11 +40,12 @@ footer ul li:nth-child(2) {
 /* hyperlinks */
 a {
     text-decoration: none;
-    color: #e3db00;
+    color: #fafafa;
 }
 a:hover {
     text-decoration: none;
-    color: #fafafa;
+    color: #e3db00;
+    /*color: #fafafa;*/
 }
 /* other text */
 h1 {
