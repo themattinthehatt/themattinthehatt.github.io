@@ -6,7 +6,6 @@ body {
     margin-top: 60px;
     width: 90%;
     color: #fafafa;
-    border: 2px dashed black;
 }
 /* header and footer */
 nav {
@@ -19,7 +18,7 @@ nav {
 	width: 100%;
 }
 nav ul {
-    font-family: 'Courier', sans-serif;
+    font-family: Courier, sans-serif;
     font-size: 1.2em;
     list-style: none;
     font-weight: bold;
@@ -34,6 +33,10 @@ footer {
     font-size: .8em;
     color: #fafafa;
 }
+footer ul li:nth-child(2) {
+	list-style-type:disc;
+}
+
 /* hyperlinks */
 a {
     text-decoration: none;
@@ -46,7 +49,7 @@ a:hover {
 /* other text */
 h1 {
     font-size: 3em;
-    font-family: 'Helvetica', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 p {
     font-size: 1.5em;
@@ -86,7 +89,20 @@ display set to inline-block */
 	position: relative;
 	display: inline-block;
 }
-
+.left-blurb {
+	float: left;
+	font-family: Helvetica, sans-serif;
+}
+.right-blurb {
+	float: right;
+	font-family: Helvetica, sans-serif;
+}
+.left-image {
+	float: left;
+}
+.right-image {
+	float: right;
+}
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
 -----------------------------------------------------------------*/
