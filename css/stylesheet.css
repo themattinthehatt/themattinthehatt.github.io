@@ -54,7 +54,7 @@ h1 {
     font-family: Helvetica, sans-serif;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.4em;
 }
 
@@ -73,7 +73,7 @@ p {
 }
 /* main container of content for each page */
 .container {
-	overflow: hidden;
+	overflow: hidden; /*http://stackoverflow.com/questions/1844207/how-to-make-a-div-to-wrap-two-float-divs-inside*/
 	margin-top: 10px;
 	background-color: #2d2d2d;
 	border: 5px solid #000000;
@@ -93,8 +93,8 @@ display set to inline-block */
 	display: inline-block;
 }
 .left-blurb {
-	/*position: relative;
-	display: inline;*/
+	position: relative;
+	display: inline;
 	float: left;
 	text-align: left;
 	font-family: Helvetica, sans-serif;
