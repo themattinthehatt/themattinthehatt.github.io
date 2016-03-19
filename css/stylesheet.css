@@ -24,8 +24,6 @@ nav ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-   	display: inline;	/* make each item inline with others */
-   	text-align: center;	/* center each item within its box */
    	margin-left: 20px;
    	margin-right: 20px;
 }
@@ -33,9 +31,6 @@ footer {
 	clear: both;
     font-size: .8em;
     color: #fafafa;
-}
-footer ul li:nth-child(2) {
-	list-style-type:disc;
 }
 
 /* hyperlinks */
@@ -49,10 +44,6 @@ a:hover {
     /*color: #fafafa;*/
 }
 /* other text */
-h1 {
-    font-size: 3em;
-    font-family: Helvetica, sans-serif;
-}
 p {
     font-size: 1.1em;
     line-height: 1.4em;
