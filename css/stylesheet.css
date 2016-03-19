@@ -17,10 +17,10 @@ nav ul {
 	border-radius: 20px;
 	color: #fafafa;
 	display: inline;
-    text-align: center;
 }
 nav ul li, footer ul li {
    	display: inline;
+   	text-align: center;
 }
 footer {
     font-size: .8em;
