@@ -21,13 +21,16 @@ nav ul li, footer ul li {
 }
 footer {
     font-size: .8em;
+    color: #fafafa;
 }
 /* hyperlinks */
 a {
     text-decoration: none;
+    color: #fafafa;
 }
 a:hover {
     text-decoration: none;
+    color: #fafafa;
 }
 /* other text */
 h1 {
@@ -60,13 +63,7 @@ p {
 	border: 5px solid #000000;
 	color: #fafafa;
 }
-/* ----------------------------------------------------------------
-                          IDS SELECTORS
------------------------------------------------------------------*/
-#id1 {
-    color: blue;
-    height: 1em;
-}
+
 
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
