@@ -20,9 +20,7 @@ nav ul {
     text-align: center;
 }
 nav ul li, footer ul li {
-   /* display: inline;
-    text-align: center;*/
-    color: #fafafa;
+   	display: inline;
 }
 footer {
     font-size: .8em;
