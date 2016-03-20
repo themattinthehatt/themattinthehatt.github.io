@@ -70,6 +70,7 @@ a:hover {
 }
 /* other text */
 p {
+	font-family: Impact, Helvetica, sans-serif;
     font-size: 1.1em;
     line-height: 1.4em;
 }
@@ -131,6 +132,12 @@ div img {
 	position: relative;
 	display: inline; /* so two divs can be next to each other */
 }
+.center-sub-container {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	display: inline; /* so two divs can be next to each other */
+}
 .left-blurb {
 	text-align: left;
 	font-family: Impact, Helvetica, sans-serif;
@@ -147,10 +154,19 @@ div img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.center-blurb {
+	text-align: left;
+	font-family: Impact, Helvetica, sans-serif;
+	margin: 0px; /* 0 margins for greater control; use padding instead */
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
 .left-image {
 	text-align: left;
 	margin: 0px; /* 0 margins for greater control; use padding instead */
-	padding-left: 20px;
+	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 0px;
