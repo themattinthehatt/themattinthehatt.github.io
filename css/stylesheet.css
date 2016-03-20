@@ -75,6 +75,7 @@ p {
 }
 
 div img {
+	/* this allows for dynamic resizing of image as browser dims are changed */
 	max-height: 100%;
 	max-width: 100%;
 }
@@ -122,7 +123,6 @@ div img {
 	float: left;
 	position: relative;
 	display: inline; /* so two divs can be next to each other */
-	border: 2px dashed red;
 }
 .right-sub-container {
 	margin: 0px;
@@ -130,7 +130,6 @@ div img {
 	float: right;
 	position: relative;
 	display: inline; /* so two divs can be next to each other */
-	border: 2px dashed blue;
 }
 .left-blurb {
 	text-align: left;
@@ -163,6 +162,19 @@ div img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 0px;
+}
+.cv-section {
+	clear: both; /* make sections sit on top of each other */
+}
+.cv-break-section {
+	/* background color includes padding; get rid of that and just work with margins */
+	clear: both;
+	height: 1px;
+	background-color: #fafafa;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	padding: 0px;
 }
 .small-link {
 	text-decoration: none;
