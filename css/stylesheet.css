@@ -3,46 +3,60 @@
 -----------------------------------------------------------------*/
 
 body {
-    margin-top: 60px;
-    width: 90%;
+    width: 100%;
     color: #fafafa;
 }
 /* header and footer */
 nav {
-	background-color: #2d2d2d;
+/* 	background-color: #2d2d2d;
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
-	margin-top: -20px;
+	margin-top: 0px;
 	margin-bottom: 10px;
-	width: 100%;
+	width: 95%; */
+	background-color: #2d2d2d;
+	border: 5px solid #000000;
+	border-radius: 20px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	width: 95%;
 }
 nav ul {
     font-family: Courier, sans-serif;
     font-size: 1.2em;
     list-style: none;
     font-weight: bold;
+	width: 90%; /* lists must have a width < 100% to center with auto margins */
+	text-align: center; /* centers all elements within the list */
 }
 nav ul li {
 	position: relative;
 	display: inline-block;
    	margin-left: 20px;
    	margin-right: 20px;
+	padding-left: 20px;
+   	padding-right: 20px;
 }
 footer {
 	clear: both;
     color: #fafafa;
+	width: 95%;
 }
 footer ul {
     font-family: Courier, sans-serif;
     font-size: 0.8em;
     list-style: none;
+	width: 90%;
+	text-align: center;
 }
 footer ul li {
 	position: relative;
 	display: inline-block;
-   	margin-left: 5px;
-   	margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
 }
 /* hyperlinks */
 a {
@@ -52,7 +66,7 @@ a {
 a:hover {
     text-decoration: none;
     color: #e3db00;
-    /*color: #fafafa;*/
+/*     color: #fafafa; */
 }
 /* other text */
 p {
@@ -60,18 +74,36 @@ p {
     line-height: 1.4em;
 }
 
+div img {
+	max-height: 100%;
+	max-width: 100%;
+}
 
 /* ----------------------------------------------------------------
                         CLASS SELECTORS
 -----------------------------------------------------------------*/
+.centered {
+	width: 100% /* default; necessary for auto-margins to center container */
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
 .red-page {
-    background-color: #912d2d;
+    background-color: #ce5050; /*#912d2d; standard red*/
 }
 .green-page {
-    background-color: #2d912d;
+    background-color: #50ce54; /*#2d912d; standard green*/
 }
-.blue-page {
-    background-color: #2d2d91;
+.light-blue-page {
+	background-color: #5086ce;
+}
+.purple-page {
+    background-color: #8f50cc; /*#2d2d91; standard blue*/
+}
+.orange-page {
+    background-color: #cd5c2d; 
 }
 /* main container of content for each page */
 .container {
@@ -81,60 +113,66 @@ p {
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
+	width: 95%
 }
-
-/* for centering: position of container should be relative, and text-align
-set to center; then the child should also have relative position and
-display set to inline-block */
-.centered-wrapper {
+/* outer containers for divs floating inside .container div */
+.left-sub-container {
+	margin: 0px;
+	padding: 0px;
+	float: left;
 	position: relative;
-	text-align: center;
+	display: inline; /* so two divs can be next to each other */
+	border: 2px dashed red;
 }
-.centered-content {
+.right-sub-container {
+	margin: 0px;
+	padding: 0px;
+	float: right;
 	position: relative;
-	display: inline-block;
+	display: inline; /* so two divs can be next to each other */
+	border: 2px dashed blue;
 }
 .left-blurb {
-	position: relative;
-	display: inline;
-	float: left;
 	text-align: left;
-	font-family: Helvetica, sans-serif;
-	width: 50%;
-	padding-left: 20px;
+	font-family: Impact, Helvetica, sans-serif;
+	margin: 0px; /* 0 margins for greater control; use padding instead */
+	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .right-blurb {
-	position: relative;
-	display: inline;
-	float: right;
 	text-align: right;
-	font-family: Helvetica, sans-serif;
-	width: 50%;
-	padding-right: 20px;
+	font-family: Impact, Helvetica, sans-serif;
+	margin: 0px; /* 0 margins for greater control; use padding instead */
+	padding-right: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .left-image {
-	position: relative;
-	display: inline;
-	float: left;
 	text-align: left;
-	width: 50%;
+	margin: 0px; /* 0 margins for greater control; use padding instead */
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-right: 0px;
 }
 .right-image {
-	position: relative;
-	display: inline;
-	float: right;
 	text-align: right;
-	width: 40%;
+	margin: 0px; /* 0 margins for greater control; use padding instead */
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 0px;
+}
+.small-link {
+	text-decoration: none;
+    color: #e3db00;
+    font-size: 0.9em;
+}
+.doc-link {
+	text-decoration: underline;
+    color: #e3db00;
+    font-size: 1em;
 }
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
