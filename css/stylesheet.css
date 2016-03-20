@@ -134,17 +134,17 @@ div img {
 }
 .left-blurb {
 	text-align: left;
-	font-family: Helvetica, sans-serif;
+	font-family: Impact, Helvetica, sans-serif;
 	margin: 0px; /* 0 margins for greater control; use padding instead */
-	padding-left: 20px;
+	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .right-blurb {
 	text-align: right;
-	font-family: Helvetica, sans-serif;
+	font-family: Impact, Helvetica, sans-serif;
 	margin: 0px; /* 0 margins for greater control; use padding instead */
-	padding-right: 20px;
+	padding-right: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -168,6 +168,11 @@ div img {
 	text-decoration: none;
     color: #e3db00;
     font-size: 0.9em;
+}
+.doc-link {
+	text-decoration: underline;
+    color: #e3db00;
+    font-size: 1em;
 }
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
