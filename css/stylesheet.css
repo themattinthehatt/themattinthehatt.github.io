@@ -21,7 +21,7 @@ nav {
 	margin-top: -50px;
 	margin-bottom: 20px;
 	padding-top: 40px;
-	width: 95%;
+	width: 80%;
 }
 nav ul {
     font-family: Courier, sans-serif;
@@ -42,7 +42,7 @@ nav ul li {
 footer {
 	clear: both;
     color: #fafafa;
-	width: 95%;
+	width: 80%;
 }
 footer ul {
     font-family: Courier, sans-serif;
@@ -115,7 +115,7 @@ div img {
 	border: 5px solid #000000;
 	border-radius: 20px;
 	color: #fafafa;
-	width: 95%
+	width: 80%
 }
 /* outer containers for divs floating inside .container div */
 .left-sub-container {
