@@ -112,7 +112,7 @@ div img {
 	overflow: hidden; /*http://stackoverflow.com/questions/1844207/how-to-make-a-div-to-wrap-two-float-divs-inside*/
 	margin-top: 10px;
 	background-color: #2d2d2d;
-	border: 5px solid #000000;
+	border: 5px solid #fafafa; /*#000000;*/
 	border-radius: 8px;
 	color: #fafafa;
 	width: 80%
