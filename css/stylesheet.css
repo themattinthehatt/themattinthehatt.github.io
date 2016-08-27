@@ -107,6 +107,10 @@ div img {
 .orange-page {
     background-color: #cd5c2d; 
 }
+}
+.gray-page {
+    background-color: #595959;
+}
 /* main container of content for each page */
 .container {
 	overflow: hidden; /*http://stackoverflow.com/questions/1844207/how-to-make-a-div-to-wrap-two-float-divs-inside*/
