@@ -138,7 +138,8 @@ div img {
 }
 
 .gray-page {
-	background-color: #595959;
+	background-color: rgb(25,25,25);*/
+	/*background-color: #595959;*/
 }
 
 .black-page {
@@ -290,7 +291,7 @@ is absolutely positioned within that*/
 	/* background color includes padding; get rid of that and just work with margins */
 	clear: both;
 	height: 1px;
-	background-color: #2d2d2d; /*#fafafa;*/
+	background-color: rgb(60,60,60);
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 40px;
