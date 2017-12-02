@@ -77,21 +77,6 @@ footer ul li {
 	text-align: center;
 }
 
-
-/* hyperlinks */
-
-a {
-	text-decoration: none;
-	color: #fafafa;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #e3db00;
-	/*     color: #fafafa; */
-}
-
-
 /* other text */
 
 p {
@@ -326,14 +311,33 @@ is absolutely positioned within that*/
 	/*#e3db00;*/
 	font-size: 0.9em;
 }
+.small-link:hover {
+	text-decoration: none;
+	color: #7447c6; /* purple */
+	/* color: #e3db00; /* yellow */
+}
 
 .doc-link {
 	text-decoration: none;
-	color: #1DB954;
-	/*#e3db00;*/
+	color: #1DB954; /* green */
 	font-size: 1em;
 }
+.doc-link:hover {
+	text-decoration: none;
+	color: #7447c6; /* purple */
+	/* color: #e3db00; /* yellow */
+}
 
+/* hyperlinks - purple hover */
+.link-purp {
+	text-decoration: none;
+	color: #fafafa;
+}
+.link-purp:hover {
+	text-decoration: none;
+	/* color: #7447c6; /* purple */
+	color: #e3db00; /* yellow */
+}
 
 /* ----------------------------------------------------------------
                        PSEUDO-CLASS SELECTORS
