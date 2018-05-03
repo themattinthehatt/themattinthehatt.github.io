@@ -25,12 +25,23 @@
 		<div class="center-sub-container" style="width: 100%">
 			<div class="center-blurb">
 				<h2>Research Interests</h2>
-				<p>As we move through the world around us our senses collect huge amounts of information about the state of our environment. It is the brain's job to process this information quickly and accurately in order to make decisions, implement coordinated motor
-					responses, and predict future events. How does the brain do this? I am interested in studying sensory processing systems in order to better understand the fundamental computations that neurons perform during the processing of external stimuli. I
-					am also interested in how internal states such as motivation and attention influence these computations.</p>
-				<p>More broadly, I am interested in how the fundamental principles underlying these computational strategies employed by the brain can be translated into artificial information processing systems. Over the last decade it has become clear that powerful
-					new machine learning approaches like deep neural networks have a superficial but strong connection to biological information processing systems, like the visual system. Further developing these parallels will inevitably result in significant scientific
-					and technological advances in the years to come.
+				<p>As we move through the world around us our senses collect huge amounts
+                    of information about the state of our environment. It is the brain's
+                    job to process this information quickly and accurately in order to make
+                    decisions, implement coordinated motor responses, and predict future
+                    events. How does the brain do this? I am interested in studying sensory
+                    processing systems in order to better understand the fundamental
+                    computations that neurons perform during the processing of external
+                    stimuli. I am also interested in how internal states such as motivation
+                    and attention influence these computations.</p>
+				<p>More broadly, I am interested in how the fundamental principles
+                    underlying these computational strategies employed by the brain can be
+                    translated into artificial information processing systems. Over the last
+                    decade it has become clear that powerful new machine learning approaches
+                    like deep neural networks have a superficial but strong connection to
+                    biological information processing systems, like the visual system.
+                    Further developing these parallels will inevitably result in significant
+                    scientific and technological advances in the years to come.
 				</p>
 			</div>
 		</div>
@@ -46,29 +57,50 @@
 	<div style="width: 100%; margin-bottom: 20px">
 	</div>
 
-	<!-- --------------------------- DECODING PROJECT -------------- -->
+    <!-- --------------------------- DECODING PROJECT -------------- -->
+    <div class="container centered", style="max-width: 1000px">
+        <div class="left-sub-container" style="width: 60%">
+            <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
+                <h2>Decoding in the presence of shared neural variability</h2>
+                <p>We develop a new decoding framework for estimating stimulus identity
+                    from recorded neural population activity. Our framework exploits the
+                    low-dimensional structure of this activity, resulting in a linear
+                    estimator that is more efficient than those from other common linear
+                    decoding algorithms. Furthermore, this framework admits a straighforward
+                    nonlinear extension that compares favorably to other nonlinear
+                    decoding algorithms.</p>
+                <!--<a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper</a> |-->
+                <!--<a class="doc-link" href="https://github.com/themattinthehatt/gam">code</a>-->
+            </div>
+
+        </div>
+        <div class="right-sub-container" style="width: 36%">
+            <div class="right-image">
+                <img src="images/trajectories.png" style="border-radius: 4px"/>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; margin-bottom: 20px">
+    </div>
+
+	<!-- --------------------------- GAM PROJECT -------------- -->
 	<div class="container centered", style="max-width: 1000px">
-		<div class="left-sub-container" style="width: 28%">
-			<div class="left-image">
-				<img src="images/two-neuron-decoding.png" />
+		<div class="left-sub-container" style="width: 60%">
+			<div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
+				<h2>Characterizing shared variability in early visual areas</h2>
+				<p>Variability in neural population responses from early sensory areas
+                    often contains low-dimensional structure. Here we introduce two new classes of
+                    nonlinear latent variable models to characterize this structure. Both
+                    model classes rely on autoencoder neural networks for latent variable
+                    inference; one class models arbitrary nonlinear interactions while the
+                    other explicitly models additive and multiplicative modulations of
+                    stimulus responses.</p>
 			</div>
 		</div>
-		<div class="right-sub-container" style="width: 68%">
-			<div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
-				<h2>Decoding in the presence of shared neural variability</h2>
-				<p>It has long been known that variability in the spike counts of individual
-				neurons, in response to identical stimuli, is correlated across populations of neurons.
-				Recent work has shown that the impact of these correlations on the total amount of
-				information contained in a population is highly dependent on the structure of these
-				correlations.</p>
-				<p>This project aims to develop an analytical framework to understand the effects of
-				correlated variability that is introduced by a small number of latent variables.
-				Specifically, we are
-				interested in how this variability affects decoding information that is contained
-				in the population response. The conclusions drawn	from this framework can then be
-				tested in large neural populations to reach a better understanding of how the brain
-				might ignore or utilize these correlations in processing sensory stimuli.</p>
-			</div>
+		<div class="right-sub-container" style="width: 36%">
+            <div class="right-image">
+                <img src="images/gam.png" style="border-radius: 4px"/>
+            </div>
 		</div>
 	</div>
 	<div style="width: 100%; margin-bottom: 20px">
@@ -76,33 +108,24 @@
 
 	<!-- --------------------------- RLVM PROJECT -------------- -->
 	<div class="container centered" style ="max-width: 1000px">
-		<div class="left-sub-container" style="width: 28%">
-			<div class="left-image">
-                <img src="images/sgm.png" />
-				<!-- <img src="/images/2p_image_krystyna_solarana_01302015.png" />
-				<p style="font-size:0.9em">Image of neurons in mouse auditory cortex using 2-photon calcium imaging. Courtesy of Krystyna Solarana of the <a class="doc-link" href="https://kanoldlab.wordpress.com/">Kanold Lab</a>.</p> -->
-			</div>
+		<div class="left-sub-container" style="width: 60%">
+            <div class="left-blurb" style="padding-top: 0px; padding-right: 40px">
+                <h2>A latent variable model for analyzing neural population recordings</h2>
+                <p>We propose the Rectified Latent Variable Model (RLVM) for analyzing
+                    neural population activity. The RLVM constrains latent variables to be
+                    both rectified and smooth. We demonstrate the advantages of these
+                    constraints using both simulated and experimental data, and show how
+                    initialization-dependent solutions can be improved by initializing model
+                    components with an autoencoder neural network.</p>
+                <a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper</a> |
+                <a class="doc-link" href="https://www.biorxiv.org/content/early/2016/08/29/072173">preprint</a> |
+                <a class="doc-link" href="https://github.com/themattinthehatt/rlvm">code</a>
+            </div>
 		</div>
-		<div class="right-sub-container" style="width: 68%">
-			<div class="left-blurb" style="padding-top: 0px; padding-right: 40px">
-				<h2>Latent variable models for analyzing large population recordings</h2>
-				<p>The study of sensory cortical neurons has traditionally been carried out by 
-					recording from one or a few neurons. Recent advances in 2-photon microscopy and 
-					multi-electrode arrays now 
-					allow us to simultaneously record hundreds or even thousands of neurons in cortex.
-					Since stimulus representation and processing is manifested in 
-					spatiotemporal patterns of activity in-vivo, these new experimental approaches have 
-					the power to revolutionize our understanding of cortical function.</p>
-				<p>Currently, however, there are no standard techniques for analyzing the vast amounts of 
-					data these experiments generate. The aim of this project is to develop a unified 
-					statistical framework that combines stimulus processing models and latent variable
-					models of neural activity. I am interested in using this model to address questions 
-					about the nature of the interactions between stimulus processing and ongoing cortical 
-					network dynamics in large populations of sensory neurons.</p>
-				<a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper</a> |
-			  <a class="doc-link" href="docs/poster_sfn2016.pdf">poster</a> |
-				<a class="doc-link" href="https://github.com/themattinthehatt/rlvm">code</a>
-			</div>
+		<div class="right-sub-container" style="width: 36%">
+            <div class="right-image">
+                <img src="images/rlvm_structure.png" style="border-radius: 4px"/>
+            </div>
 		</div>
 	</div>
 	<!-- -------------------------- END PROJECTS ----------------- -->
