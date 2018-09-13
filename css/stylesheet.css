@@ -15,7 +15,11 @@ body {
 
 
 /* header and footer */
-
+/*font-family: 'Cutive Mono', monospace;*/
+/*font-family: 'Nunito', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Tajawal', sans-serif;*/
+/*font-family: 'Mallanna', sans-serif;*/
 nav {
 	/* 	background-color: #2d2d2d;
 	border: 5px solid #000000;
@@ -36,7 +40,7 @@ nav {
 }
 
 nav ul {
-	font-family: Courier, sans-serif;
+	font-family: 'Cutive Mono', Courier, monospace;
 	font-size: 1.2em;
 	list-style: none;
 	font-weight: bold;
@@ -62,7 +66,7 @@ footer {
 }
 
 footer ul {
-	font-family: Courier, sans-serif;
+	font-family: 'Cutive Mono', Courier, sans-serif;
 	font-size: 0.8em;
 	list-style: none;
 	width: 90%;
@@ -80,7 +84,7 @@ footer ul li {
 /* other text */
 
 p {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Khula', Helvetica, sans-serif;
 	font-size: 1.1em;
 	line-height: 1.4em;
 }
@@ -199,7 +203,7 @@ div img {
 
 .left-blurb {
 	text-align: left;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Khula', Helvetica, sans-serif;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-left: 40px;
@@ -209,7 +213,7 @@ div img {
 
 .right-blurb {
 	text-align: right;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Khula', Helvetica, sans-serif;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-right: 40px;
@@ -219,7 +223,7 @@ div img {
 
 .center-blurb {
 	text-align: left;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Khula', Helvetica, sans-serif;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-left: 40px;
