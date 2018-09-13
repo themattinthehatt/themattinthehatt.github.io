@@ -25,7 +25,7 @@
         </ul>
     </nav>
 
-    <!-- --------------------------- THREEJS ------------------- -->
+    <!-- --------------------------- TORUS PARTICLES ------------------- -->
     <div class="container centered" style="max-width: 1000px;">
         <div class="left-sub-container" style="width: 48%">
             <div class="video-wrapper-left" style="padding-bottom: 100%"> <!-- height/width% -->
@@ -35,8 +35,21 @@
         </div>
         <div class="right-sub-container" style="width: 48%">
             <div class="left-blurb" style="padding-top: 20px; padding-right: 40px">
-                <h2>Three.js sketches</h2>
-                <p>Fun with javascript
+                <h2>torus particles</h2>
+                <p>A particle system simulator written in three.js. With this
+                    project I explored the use of global
+                    gravitational and spring forces, rather than considering all
+                    pairwise interactions, to drive the particle dynamics. Each
+                    particle is attracted to a center of gravity that moves along
+                    a <a href="https://en.wikipedia.org/wiki/Torus_knot" class="doc-link">torus knot</a>,
+                    and is periodically pulled back to its starting point using
+                    a spring force. Updating the dynamics in such a way gives the
+                    appearance of flocking behavior, but also allows
+                    the simulation to scale to large numbers of particles since it
+                    isn't necessary to consider all pairwise interactions. I also used
+                    this project to test out Google's fantastic three.js user
+                    interface tool
+                    <a href="http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage" class="doc-link">dat.gui</a>.
                 </p>
                 [<a href="js-sketches/torus-particles/torus-particles.html" class="doc-link">play</a> |
                  <a href="https://github.com/themattinthehatt/themattinthehatt.github.io/blob/master/js-sketches/torus-particles/" class="doc-link">code</a>]
