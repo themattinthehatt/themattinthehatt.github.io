@@ -9,7 +9,7 @@
 -----------------------------------------------------------------*/
 
 body {
-	width: 100%;
+	/*width: 100%;*/
 	color: #fafafa;
 }
 
@@ -101,7 +101,7 @@ div img {
 -----------------------------------------------------------------*/
 
 .centered {
-	width: 100%; /* default; necessary for auto-margins to center container */
+	/*width: 100%; !* default; necessary for auto-margins to center container (but also led to horizontal scroll bars)*!*/
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
