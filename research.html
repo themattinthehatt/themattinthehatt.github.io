@@ -20,7 +20,7 @@
             <li><a class="link-purp" href="https://github.com/themattinthehatt">code</a></li>
 			<!-- <li><a href="/teaching.html">teaching</a></li> -->
 			<li><a class="link-purp" href="docs/cv.pdf">cv</a></li>
-			<li><a class="link-purp" href="art.html">projects</a></li>
+			<li><a class="link-purp" href="art.html">fun</a></li>
 			<!--<li><a class="link-purp" href="links.html">links</a></li>-->
 		</ul>
 	</nav>
@@ -29,24 +29,31 @@
 		<div class="center-sub-container" style="width: 100%">
 			<div class="center-blurb">
 				<h2>Research Interests</h2>
-				<p>As we move through the world around us our senses collect huge amounts
-                    of information about the state of our environment. The brain
-                    must process this information quickly and accurately in order to make
-                    decisions, implement coordinated motor responses, and predict future
-                    events. How does the brain do this? I am interested in studying sensory
-                    processing systems in order to better understand the fundamental
-                    computations that neurons perform during the processing of external
-                    stimuli. I am also interested in how internal states such as motivation
-                    and attention influence these computations.</p>
-				<p>More broadly, I am interested in how the fundamental principles
-                    underlying these computational strategies employed by the brain can be
-                    translated into artificial information processing systems. Over the last
-                    decade it has become clear that powerful new machine learning approaches
-                    like deep neural networks have a superficial but strong connection to
-                    biological information processing systems, like the visual system.
-                    Further developing these parallels will inevitably result in significant
-                    scientific and technological advances in the years to come.
-				</p>
+                <p>I am interested in animal behavior and how it is controlled by the brain.
+                    To study this, I develop tools for quantifying animal behavior from video data,
+                    for example pose estimation and action segmentation.
+                    I also develop tools for connecting that behavior to simultaneously recorded
+                    neural activity in order to better understand the neural information processing
+                    that underlies complex adaptive behavior.
+                </p>
+<!--				<p>As we move through the world around us our senses collect huge amounts-->
+<!--                    of information about the state of our environment. The brain-->
+<!--                    must process this information quickly and accurately in order to make-->
+<!--                    decisions, implement coordinated motor responses, and predict future-->
+<!--                    events. How does the brain do this? I am interested in studying sensory-->
+<!--                    processing systems in order to better understand the fundamental-->
+<!--                    computations that neurons perform during the processing of external-->
+<!--                    stimuli. I am also interested in how internal states such as motivation-->
+<!--                    and attention influence these computations.</p>-->
+<!--				<p>More broadly, I am interested in how the fundamental principles-->
+<!--                    underlying these computational strategies employed by the brain can be-->
+<!--                    translated into artificial information processing systems. Over the last-->
+<!--                    decade it has become clear that powerful new machine learning approaches-->
+<!--                    like deep neural networks have a superficial but strong connection to-->
+<!--                    biological information processing systems, like the visual system.-->
+<!--                    Further developing these parallels will inevitably result in significant-->
+<!--                    scientific and technological advances in the years to come.-->
+<!--				</p>-->
                 <p>
                     <a class="doc-link" href="https://scholar.google.com/citations?user=jeIGzDIAAAAJ&hl=en">Google Scholar</a>
                 </p>
@@ -64,13 +71,41 @@
 	<div style="width: 100%; margin-bottom: 20px">
 	</div>
 
+    <!-- --------------------------- LIGHTNING POSE -------------- -->
+    <div class="container centered", style="max-width: 1000px">
+        <div class="left-sub-container" style="width: 60%">
+            <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
+                <h2>Lightning Pose</h2>
+                <p>Lightning Pose (LP) is an industry-grade pose estimation software package that
+                    utilizes unlabeled frames to train better models. LP uses unsupervised training
+                    objectives that penalize the network whenever its predictions violate a variety
+                    of spatiotemporal constraints. It also uses a new network architecture that
+                    predicts the pose for a given frame using temporal context from surrounding
+                    unlabeled frames. We provide a browser-based app for data labeling and
+                    model training and evaluation.
+                </p>
+                <a class="doc-link" href="https://www.biorxiv.org/content/10.1101/2023.04.28.538703v1">preprint</a> |
+                <a class="doc-link" href="https://github.com/danbider/lightning-pose">code</a> |
+                <a class="doc-link" href="https://github.com/Lightning-Universe/Pose-app">app</a>
+            </div>
+
+        </div>
+        <div class="right-sub-container" style="width: 36%">
+            <div class="center-image">
+                <img src="images/LightningPose_horizontal_light.png" style="border-radius: 4px"/>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; margin-bottom: 20px">
+    </div>
+
     <!-- --------------------------- daart -------------- -->
     <div class="container centered", style="max-width: 1000px">
         <div class="left-sub-container" style="width: 60%">
             <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
                 <h2>Semi-supervised behavioral segmentation</h2>
                 <p>We introduce a semi-supervised approach to behavioral segmentation that
-                    leverages weak- self-supervision. With this approach we show that a large
+                    leverages weak- and self-supervision. With this approach we show that a large
                     number of unlabeled frames can improve supervised segmentation in the regime of
                     sparse hand labels, and also show that a small number of hand labeled frames
                     can increase the precision of unsupervised segmentation.</p>
@@ -81,7 +116,7 @@
         </div>
         <div class="right-sub-container" style="width: 36%">
             <div class="center-image">
-                <img src="images/daart.png" style="border-radius: 4px"/>
+                <img src="images/daart2.png" style="border-radius: 4px"/>
             </div>
         </div>
     </div>
@@ -100,7 +135,8 @@
                     information than pose estimates alone. We show how these interpretable
                     representations can be used to characterize the dynamics of behavior, as well
                     as improve the precision of neural decoding analyses.</p>
-                <a class="doc-link" href="https://www.biorxiv.org/content/10.1101/2021.02.22.432309v1">preprint</a> |
+<!--                <a class="doc-link" href="https://www.biorxiv.org/content/10.1101/2021.02.22.432309v1">preprint</a> |-->
+                <a class="doc-link" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009439">paper</a> |
                 <a class="doc-link" href="https://github.com/themattinthehatt/behavenet">code</a>
             </div>
 
@@ -179,7 +215,7 @@
                     inference; one class models arbitrary nonlinear interactions while the
                     other explicitly models additive and multiplicative modulations of
                     stimulus responses.</p>
-                <a class="doc-link" href="https://arxiv.org/abs/1904.10441">paper</a> |
+                <a class="doc-link" href="https://nbdt.scholasticahq.com/article/7984-characterizing-the-nonlinear-structure-of-shared-variability-in-cortical-neuron-populations-using-latent-variable-models">paper</a> |
                 <a class="doc-link" href="https://github.com/themattinthehatt/whiteway-et-al-2019-nbdt">paper code</a> |
                 <a class="doc-link" href="https://github.com/themattinthehatt/gam">model code</a>
 			</div>
@@ -205,7 +241,7 @@
                     initialization-dependent solutions can be improved by initializing model
                     components with an autoencoder neural network.</p>
                 <a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper</a> |
-                <a class="doc-link" href="https://www.biorxiv.org/content/early/2016/08/29/072173">preprint</a> |
+<!--                <a class="doc-link" href="https://www.biorxiv.org/content/early/2016/08/29/072173">preprint</a> |-->
                 <a class="doc-link" href="https://github.com/themattinthehatt/rlvm">code</a>
             </div>
 		</div>
@@ -219,7 +255,7 @@
 
 	<footer class="centered">
 		<ul class="centered">
-			<li>copyright &copy; 2016-2021</li>
+			<li>copyright &copy; 2016-2023</li>
 			<li>&#x26A1; </li>
 			<li>design: matt whiteway</li>
 		</ul>
