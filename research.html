@@ -3,7 +3,7 @@
 <!-- purple-page -->
 
 <!--embed google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Khula" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Khula:wght@300&display=swap" rel="stylesheet">
 
 <head>
 	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
@@ -11,6 +11,17 @@
 	<title>matt whiteway | research</title>
     <link rel="icon" href="images/favicon.png">
     <style>
+        .left-blurb h2 {
+            margin-top: 40px;
+        }
+
+        .right-sub-container .center-image,
+        .right-sub-container .right-image {
+            padding-top: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px;
+        }
+
         .tab-bar {
             display: flex;
             border-bottom: 1px solid #444;
@@ -114,8 +125,9 @@
                             BEAST combines masked autoencoding with temporal contrastive learning to
                             effectively leverage unlabeled video data.
                         </p>
-                        <a class="doc-link" href="https://openreview.net/pdf?id=AeqPIRKUni">paper</a> |
-                        <a class="doc-link" href="https://github.com/paninski-lab/beast">code</a>
+                        <a class="doc-link" href="https://github.com/paninski-lab/beast">code</a> |
+                        <a class="doc-link" href="https://openreview.net/pdf?id=AeqPIRKUni">paper [ICLR 2026]</a>
+
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -130,17 +142,17 @@
                 <div class="left-sub-container" style="width: 60%">
                     <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
                         <h2>Lightning Pose</h2>
-                        <p>Lightning Pose (LP) is an industry-grade pose estimation software package that
-                            utilizes unlabeled frames to train better models. LP uses unsupervised training
-                            objectives that penalize the network whenever its predictions violate a variety
-                            of spatiotemporal constraints. It also uses a new network architecture that
+                        <p>Lightning Pose is an industry-grade pose estimation software package that
+                            utilizes unlabeled frames to train better models. Unsupervised training
+                            objectives penalize the network whenever its predictions violate a variety
+                            of spatiotemporal constraints, and a novel network architecture
                             predicts the pose for a given frame using temporal context from surrounding
                             unlabeled frames. We provide a browser-based app for data labeling and
                             model training and evaluation.
                         </p>
-                        <a class="doc-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12087009/">paper</a> |
                         <a class="doc-link" href="https://github.com/paninski-lab/lightning-pose">code</a> |
-                        <a class="doc-link" href="https://github.com/paninski-lab/lightning-pose-app">app</a>
+                        <a class="doc-link" href="https://github.com/paninski-lab/lightning-pose-app">app</a> |
+                        <a class="doc-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12087009/">paper [Nature Methods 2024]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -156,14 +168,14 @@
                     <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
                         <h2>Partitioned Subspace VAE</h2>
                         <p>The PS-VAE is a behavioral video analysis tool that combines the output of
-                            supervised pose estimation algorithms (e.g. DeepLabCut) with unsupervised
+                            supervised pose estimation algorithms with unsupervised
                             dimensionality reduction methods (e.g. VAEs) to produce interpretable,
                             low-dimensional representations of behavioral videos that extract more
                             information than pose estimates alone. We show how these interpretable
                             representations can be used to characterize the dynamics of behavior, as well
                             as improve the precision of neural decoding analyses.</p>
-                        <a class="doc-link" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009439">paper</a> |
-                        <a class="doc-link" href="https://github.com/themattinthehatt/behavenet">code</a>
+                        <a class="doc-link" href="https://github.com/themattinthehatt/behavenet">code</a> |
+                                                <a class="doc-link" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009439">paper [PLoS Comp Bio 2021]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -186,8 +198,8 @@
                             "behavioral syllables". Based on this generative model, we
                             develop a novel Bayesian decoder that takes in neural activity
                             and outputs probabilistic estimates of the behavioral video.</p>
-                        <a class="doc-link" href="https://papers.nips.cc/paper/9701-behavenet-nonlinear-embedding-and-bayesian-neural-decoding-of-behavioral-videos">paper</a> |
-                        <a class="doc-link" href="https://github.com/themattinthehatt/behavenet">code</a>
+                        <a class="doc-link" href="https://github.com/themattinthehatt/behavenet">code</a> |
+                        <a class="doc-link" href="https://papers.nips.cc/paper/9701-behavenet-nonlinear-embedding-and-bayesian-neural-decoding-of-behavioral-videos">paper [NeurIPS 2019]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -197,27 +209,27 @@
                 </div>
             </div>
 
-            <!-- DECODING PROJECT -->
-            <div class="paper-entry">
-                <div class="left-sub-container" style="width: 60%">
-                    <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
-                        <h2>Decoding in the presence of shared neural variability</h2>
-                        <p>We develop a new decoding framework for estimating stimulus identity
-                            from recorded neural population activity. Our framework exploits the
-                            low-dimensional structure of this activity, resulting in a linear
-                            estimator that is more efficient than those from other common linear
-                            decoding algorithms. Furthermore, this framework admits a straighforward
-                            nonlinear extension that compares favorably to other nonlinear
-                            decoding algorithms.</p>
-                        <a class="doc-link" href="https://www.biorxiv.org/content/10.1101/2020.01.06.896423v1">preprint</a>
-                    </div>
-                </div>
-                <div class="right-sub-container" style="width: 36%">
-                    <div class="right-image">
-                        <img src="images/trajectories.png" style="border-radius: 4px"/>
-                    </div>
-                </div>
-            </div>
+<!--            &lt;!&ndash; DECODING PROJECT &ndash;&gt;-->
+<!--            <div class="paper-entry">-->
+<!--                <div class="left-sub-container" style="width: 60%">-->
+<!--                    <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">-->
+<!--                        <h2>Decoding in the presence of shared neural variability</h2>-->
+<!--                        <p>We develop a new decoding framework for estimating stimulus identity-->
+<!--                            from recorded neural population activity. Our framework exploits the-->
+<!--                            low-dimensional structure of this activity, resulting in a linear-->
+<!--                            estimator that is more efficient than those from other common linear-->
+<!--                            decoding algorithms. Furthermore, this framework admits a straighforward-->
+<!--                            nonlinear extension that compares favorably to other nonlinear-->
+<!--                            decoding algorithms.</p>-->
+<!--                        <a class="doc-link" href="https://www.biorxiv.org/content/10.1101/2020.01.06.896423v1">preprint [biorxiv]</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="right-sub-container" style="width: 36%">-->
+<!--                    <div class="right-image">-->
+<!--                        <img src="images/trajectories.png" style="border-radius: 4px"/>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
             <!-- GAM PROJECT -->
             <div class="paper-entry">
@@ -231,9 +243,9 @@
                             inference; one class models arbitrary nonlinear interactions while the
                             other explicitly models additive and multiplicative modulations of
                             stimulus responses.</p>
-                        <a class="doc-link" href="https://nbdt.scholasticahq.com/article/7984-characterizing-the-nonlinear-structure-of-shared-variability-in-cortical-neuron-populations-using-latent-variable-models">paper</a> |
                         <a class="doc-link" href="https://github.com/themattinthehatt/whiteway-et-al-2019-nbdt">paper code</a> |
-                        <a class="doc-link" href="https://github.com/themattinthehatt/gam">model code</a>
+                        <a class="doc-link" href="https://github.com/themattinthehatt/gam">model code</a> |
+                                                <a class="doc-link" href="https://nbdt.scholasticahq.com/article/7984-characterizing-the-nonlinear-structure-of-shared-variability-in-cortical-neuron-populations-using-latent-variable-models">paper [NBDT 2019]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -254,8 +266,8 @@
                             constraints using both simulated and experimental data, and show how
                             initialization-dependent solutions can be improved by initializing model
                             components with an autoencoder neural network.</p>
-                        <a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper</a> |
-                        <a class="doc-link" href="https://github.com/themattinthehatt/rlvm">code</a>
+                        <a class="doc-link" href="https://github.com/themattinthehatt/rlvm">code</a> |
+                        <a class="doc-link" href="http://jn.physiology.org/content/117/3/919">paper [Journal of Neurophysiology 2017]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -282,7 +294,7 @@
                             We provide an initial appraisal of this brain-wide map and assess how neural
                             activity encodes key task variables.
                         </p>
-                        <a class="doc-link" href="https://www.nature.com/articles/s41586-025-09235-0">paper</a>
+                        <a class="doc-link" href="https://www.nature.com/articles/s41586-025-09235-0">paper [Nature 2025]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -305,7 +317,7 @@
                             Our work highlights how dynamic visual cues shape the rhythm of social
                             interactions at multiple timescales.
                         </p>
-                        <a class="doc-link" href="https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01559-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124724015596%3Fshowall%3Dtrue">paper</a>
+                        <a class="doc-link" href="https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01559-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124724015596%3Fshowall%3Dtrue">paper [Cell Reports 2025]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -326,7 +338,7 @@
                             of spontaneous behaviors.
                             This revealed neural representations of behavior on multiple spatial and temporal scales.
                         </p>
-                        <a class="doc-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10495430/">paper</a>
+                        <a class="doc-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10495430/">paper [Nature Communications 2023]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -345,12 +357,16 @@
             <div class="paper-entry">
                 <div class="left-sub-container" style="width: 60%">
                     <div class="left-blurb" style="padding-top: 0px; padding-right: 60px">
-                        <h2>20 lessons in team science: learning from the experience of the International Brain Laboratory</h2>
-                        <p>Machine learning should not be a replacement for human judgment but rather help
-                            us embrace the various assumptions and interpretations that shape behavioral
-                            research.
+                        <h2>20 lessons in team science: learning from the experience of the International Brain Lab</h2>
+                        <p>The International Brain Lab is an experiment in building a
+                            large-scale distributed collaboration committed to open science.
+                            However, scaling up research from a single laboratory to a
+                            multi-laboratory collaboration presents novel challenges.
+                            In this paper we describe some of the lessons we have learned in
+                            creating and executing the vision of the International Brain Lab
+                            that we hope other scientists may find applicable to their own efforts.
                         </p>
-                        <a class="doc-link" href="https://osf.io/download/rfzch/">paper</a>
+                        <a class="doc-link" href="https://osf.io/download/rfzch/">article [Neuron 2026]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -369,7 +385,7 @@
                             us embrace the various assumptions and interpretations that shape behavioral
                             research.
                         </p>
-                        <a class="doc-link" href="https://www.thetransmitter.org/behavioral-neuroscience/beyond-the-algorithmic-oracle-rethinking-machine-learning-in-behavioral-neuroscience/">article</a>
+                        <a class="doc-link" href="https://www.thetransmitter.org/behavioral-neuroscience/beyond-the-algorithmic-oracle-rethinking-machine-learning-in-behavioral-neuroscience/">article [The Transmitter 2025]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">
@@ -391,7 +407,7 @@
                             latent variables, and modeling the dynamics of latent variables provides a new
                             perspective on neural computations.
                         </p>
-                        <a class="doc-link" href="https://pubmed.ncbi.nlm.nih.gov/31426024/">paper</a>
+                        <a class="doc-link" href="https://pubmed.ncbi.nlm.nih.gov/31426024/">article [Current Opinion in Neurobiology 2019]</a>
                     </div>
                 </div>
                 <div class="right-sub-container" style="width: 36%">

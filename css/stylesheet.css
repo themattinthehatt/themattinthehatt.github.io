@@ -1,8 +1,3 @@
-:root {
-  --bg-gray1: rgba(11,11,11,0.75);
-	--bg-gray2: rgba(10,10,10,0.75);
-	--bg-gray3: rgba(12,12,12,0.6);
-}
 
 /* ----------------------------------------------------------------
                         CSS TAG SELECTORS
@@ -85,6 +80,7 @@ footer ul li {
 
 p {
 	font-family: 'Khula', Helvetica, sans-serif;
+	font-weight: 300;
 	font-size: 1.1em;
 	line-height: 1.4em;
 }
@@ -134,23 +130,8 @@ div img {
 }
 
 .gray-page {
-	/*background-color: rgb(25,25,25);*/
-	/*background-color: #595959;*/
 	height: 100%;
-	background:
-		repeating-linear-gradient(45deg, var(--bg-gray1), var(--bg-gray1) 30px, var(--bg-gray2) 30px, var(--bg-gray2) 60px),
-		repeating-linear-gradient(45deg, var(--bg-gray3), var(--bg-gray3) 1px, var(--bg-gray2) 1px, var(--bg-gray2) 10px,
-		                                 var(--bg-gray3) 10px, var(--bg-gray3) 11px, var(--bg-gray2) 11px, var(--bg-gray2) 20px,
-                                     var(--bg-gray3) 20px, var(--bg-gray3) 21px, var(--bg-gray2) 21px, var(--bg-gray2) 30px,
-		                                 var(--bg-gray3) 31px, var(--bg-gray3) 31px, var(--bg-gray1) 31px, var(--bg-gray1) 40px,
-		                                 var(--bg-gray3) 41px, var(--bg-gray3) 41px, var(--bg-gray1) 41px, var(--bg-gray1) 50px,
-                                     var(--bg-gray3) 51px, var(--bg-gray3) 51px, var(--bg-gray1) 51px, var(--bg-gray1) 60px),
-		repeating-linear-gradient(-45deg, var(--bg-gray3), var(--bg-gray3) 1px, var(--bg-gray2) 1px, var(--bg-gray2) 10px,
-		                                 var(--bg-gray3) 10px, var(--bg-gray3) 11px, var(--bg-gray2) 11px, var(--bg-gray2) 20px,
-                                     var(--bg-gray3) 20px, var(--bg-gray3) 21px, var(--bg-gray2) 21px, var(--bg-gray2) 30px,
-		                                 var(--bg-gray3) 31px, var(--bg-gray3) 31px, var(--bg-gray1) 31px, var(--bg-gray1) 40px,
-		                                 var(--bg-gray3) 41px, var(--bg-gray3) 41px, var(--bg-gray1) 41px, var(--bg-gray1) 50px,
-                                     var(--bg-gray3) 51px, var(--bg-gray3) 51px, var(--bg-gray1) 51px, var(--bg-gray1) 60px);
+	background-color: rgb(10,10,10);
 }
 
 .black-page {
@@ -203,7 +184,9 @@ div img {
 
 .left-blurb {
 	text-align: left;
+	line-height: 1.15;
 	font-family: 'Khula', Helvetica, sans-serif;
+	font-weight: 300;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-left: 40px;
@@ -214,6 +197,7 @@ div img {
 .right-blurb {
 	text-align: right;
 	font-family: 'Khula', Helvetica, sans-serif;
+	font-weight: 300;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-right: 40px;
@@ -224,6 +208,7 @@ div img {
 .center-blurb {
 	text-align: left;
 	font-family: 'Khula', Helvetica, sans-serif;
+	font-weight: 300;
 	margin: 0px;
 	/* 0 margins for greater control; use padding instead */
 	padding-left: 40px;

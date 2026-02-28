@@ -66,7 +66,7 @@
         ctx.save();
         ctx.globalAlpha = this.alpha;
         ctx.translate(this.x, this.y);
-        if (this.dir === -1) ctx.scale(-1, 1);     // flip to face left
+        if (this.dir === 1) ctx.scale(-1, 1);      // flip to face right
         ctx.scale(this.scale, this.scale);
         ctx.rotate(tilt);
 
